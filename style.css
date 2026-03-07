@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Bpmf+Zihi+Kai+Std&family=Marko+One&display=swap');
+
+*{
+    font-family: "Marko One", serif, Arial;
+    background-color: blanchedalmond;
+    
+}
+body{
+    background-image: url(https://www.bing.com/th/id/OGC.01b7185ddb6fdb5fa89602534610dd9f?o=7&pid=1.7&rm=3&rurl=https%3a%2f%2fi.kym-cdn.com%2fphotos%2fimages%2fnewsfeed%2f002%2f730%2f263%2fb69.gif&ehk=sOs1fUWwPwEuz8j5U8gv8%2fImgTOuMvAocVMbMfhqid8%3d);
+}
+
+
+ div{
+    text-align: center;
+    font-size: 50px;
+    margin-top: 150px;
+ }
+h1{
+    display: inline-block;
+    text-align: center;
+    font-size: 30px;
+    color: pink;
+}
+.container{
+    flex-direction: row;
+    justify-content: center;
+    display: flex;
+
+    
+}
+.item, .item2, .item3{
+    animation: rotate 1.2s infinite linear;
+}
+.item{
+    color: green;
+    background-color: yellowgreen;
+    width: 50px;
+    height: 70px;
+    margin: 10px;
+}
+.item2{
+    color: gold;
+    background-color: navy;
+    width: 150px;
+    height: 70px;
+    margin: 10px;
+}
+.item3{
+    color: pink;
+    background-color: crimson;
+    width: 150px;
+    height: 70px;
+    margin: 10px;
+}
+#img{
+    text-align: center;
+}
+#anime, p, #habit, #water{
+    background-color: aqua;
+    
+}
+.text{
+    color: red;
+    background-color: aqua;
+}
+@keyframes rotate {
+    to {transform: rotate(360deg);}
+}
+
+table{
+    border-collapse: collapse;
+    margin: auto;
+}
+#img{
+    margin: 0 1700px;
+}
+th, td{
+    border: 5px solid black;
+    padding: 10px;
+}
