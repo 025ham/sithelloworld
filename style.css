@@ -2,35 +2,39 @@
 
 *{
     font-family: "Marko One", serif, Arial;
-    background-color: blanchedalmond;
-    
+    box-sizing: border-box;
 }
+
 body{
+    background-color: blanchedalmond;
     background-image: url(https://www.bing.com/th/id/OGC.01b7185ddb6fdb5fa89602534610dd9f?o=7&pid=1.7&rm=3&rurl=https%3a%2f%2fi.kym-cdn.com%2fphotos%2fimages%2fnewsfeed%2f002%2f730%2f263%2fb69.gif&ehk=sOs1fUWwPwEuz8j5U8gv8%2fImgTOuMvAocVMbMfhqid8%3d);
+
 }
 
-
- div{
+div{
     text-align: center;
     font-size: 50px;
-    margin-top: 150px;
- }
+    margin-top: 50px; 
+}
+
 h1{
     display: inline-block;
     text-align: center;
     font-size: 30px;
     color: pink;
 }
+
 .container{
     flex-direction: row;
     justify-content: center;
     display: flex;
-
-    
+    flex-wrap: wrap; 
 }
+
 .item, .item2, .item3{
     animation: rotate 1.2s infinite linear;
 }
+
 .item{
     color: green;
     background-color: yellowgreen;
@@ -38,6 +42,7 @@ h1{
     height: 70px;
     margin: 10px;
 }
+
 .item2{
     color: gold;
     background-color: navy;
@@ -45,6 +50,7 @@ h1{
     height: 70px;
     margin: 10px;
 }
+
 .item3{
     color: pink;
     background-color: crimson;
@@ -52,17 +58,21 @@ h1{
     height: 70px;
     margin: 10px;
 }
+
 #img{
     text-align: center;
+    margin: auto; /* แก้จาก margin:0 1700px */
 }
+
 #anime, p, #habit, #water{
     background-color: aqua;
-    
 }
+
 .text{
     color: red;
     background-color: aqua;
 }
+
 @keyframes rotate {
     to {transform: rotate(360deg);}
 }
@@ -71,10 +81,13 @@ table{
     border-collapse: collapse;
     margin: auto;
 }
-#img{
-    margin: 0 1700px;
-}
+
 th, td{
     border: 5px solid black;
     padding: 10px;
+}
+
+img{
+    max-width: 100%;
+    height: auto;
 }
